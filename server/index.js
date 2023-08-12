@@ -62,6 +62,7 @@ app.get('/update/:id', async (req, res) => {
       res.send(result)
 
     })
+    
     app.post('/', async (req, res) => {
       try {
         const newUser = req.body;
