@@ -42,7 +42,7 @@ function Add() {
           <form onSubmit={handleSubmit(onSubmit)} >
           <div className="mb-4">
         <label htmlFor="id" className="block font-semibold text-gray-700">Id</label>
-        <input
+        <input 
           {...register("id", {
             required: true,
             pattern: /^[0-9]{1,5}$/ // Pattern to allow only 1 to 3 digits
