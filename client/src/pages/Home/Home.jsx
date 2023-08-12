@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 const Home = () => {
     const [currentPage, setCurrentPage] = useState(0);
     const [renderData, SetRenderData] = useState([]);
-    const [search, setSearcData] = useState('')
+    const [search, setSearcData] = useState('') 
     const itemsPerPage = 1; // Number of items to display per page
     useEffect(() => {
         fetch('http://localhost:5000/')
