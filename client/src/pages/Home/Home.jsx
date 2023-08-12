@@ -103,6 +103,7 @@ console.log(renderData)
                 <th>Joining_Date</th>
                 <th>Salary</th>
                 <th>Email</th>
+                
                 <th>mobile_no</th>
                 <th>Address</th>
 
