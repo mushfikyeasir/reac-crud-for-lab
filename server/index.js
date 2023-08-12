@@ -10,6 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 
+
 const uri = `mongodb+srv://${process.env.S3_BUCKET}:${process.env.SECRET_KEY}@cluster0.c6qt32p.mongodb.net/?retryWrites=true&w=majority`;
 
 
