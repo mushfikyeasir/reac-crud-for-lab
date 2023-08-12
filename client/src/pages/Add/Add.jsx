@@ -60,7 +60,7 @@ function Add() {
               <input  {...register("name", { required: true })} type="name" placeholder="Name"  className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-blue-500" />
               {errors.exampleRequired && <span>This field is required</span>}
             </div>
-
+   
             <div className="mb-4">
               <label htmlFor="jobTitle" className="block font-semibold text-gray-700">Job-Title</label>
               <input  {...register("jobTitle", { required: true })} type="jobTitle" placeholder="jobTitle"  className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-blue-500" />
